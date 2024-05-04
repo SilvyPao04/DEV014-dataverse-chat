@@ -51,7 +51,6 @@ export const filters = () => {
     <div class="conten-estadisticas"></div>
 
     `;
-
+    
   return containerFilters;
 };
-
