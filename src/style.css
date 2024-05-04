@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Inter-Black';
+    src: url('fonts/Inter/static/Inter-Black.ttf');
+}
+
 body {
     background-color: #151517;
     background-attachment: fixed;
@@ -50,7 +55,7 @@ h1 {
     overflow: hidden;
 }
 
-.hero::after {
+.hero:after {
     content: '';
     position: absolute;
     bottom: -100px; /* Altura del difuminado, ajusta según necesites */
@@ -80,7 +85,7 @@ h1 {
     color: #FFFFFF;
 }
 
-main h2 {
+h2 {
     text-align: left;
     color: #FFFFFF;
     font-size: 30px;
@@ -91,7 +96,7 @@ main h2 {
     text-align: left;   
 }
 
-main h3 {
+h3 {
     text-align: left;
     color: #C1C1C1;
     font-size: 15px;
@@ -124,7 +129,7 @@ main h3 {
     margin-right: auto;
 }
 
-main h4 {
+h4 {
     text-align: center;
     color: #ffffff;
     font-size: 19px;
@@ -135,7 +140,7 @@ main h4 {
     margin-bottom: 8px;
 }
 
-main h5 {
+h5 {
     text-align: center;
     color: #C1C1C1;
     font-size: 15px;
@@ -216,7 +221,6 @@ main h5 {
     max-width: 260px;
     height: 500px;
     background: #000000;
-    box-shadow: 5px 5px 25px #f6da97;
     border-radius: 24px;
     transition: .5s ease-in;
     margin-top: 25px;
