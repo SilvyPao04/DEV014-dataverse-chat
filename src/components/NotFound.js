@@ -1,15 +1,19 @@
 export const notFound = () => {
   const notFoundElement = document.createElement("div");
+  notFoundElement.classList.add("not-found");
   notFoundElement.innerHTML = `
-      <h1> NOT FOUND </h1>
-      <img class="error-image" src="./data/img/error_404.jpeg"> <br>
-      <button id="button-goHome">Regresar</button> <br>
-    `;
-  
+    <div class="overlay">
+      <p>Te has desviado del sendero, viajero. <br>
+      Regresa a la <a href="/">Comarca</a> y continúa tu aventura.</p>
+      <button id="button-goHome">Regresar</button>
+    </div>
+    <img class="error-image" src="data/img/error-image.png">
+  `;
+
   const buttonGoHome = notFoundElement.querySelector("#button-goHome");
   buttonGoHome.addEventListener("click", () => {
     window.location.href = "index.html";
   });
-  
+
   return notFoundElement;
 };
