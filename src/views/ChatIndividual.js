@@ -4,9 +4,11 @@ import { navigateTo } from "../router.js";
 
 //Definición de chatIndividual
 const ChatIndividual = (props) => {
+
   //Selección del Personaje
   const characterId = props.id;
   const character = data.find((character) => character.id === characterId);
+  
   //Creación de la Interfaz de Chat
   const chat = document.createElement("div");
   chat.classList.add("chat-body", "chat-individual");  
