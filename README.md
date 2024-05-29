@@ -85,7 +85,7 @@ La interfaz está diseñada para ofrecer una experiencia intuitiva y atractiva p
 #### Prototipo de baja fidelidad
 - Iteraciones de bocetos realizados utilizando papel y lápiz, tanto de la interfaz como de los modales para la API Key.
 - ![Prototipo de Baja Fidelidad - Página Principal](src/data/img/WireframeBaja.png)
-- ![Prototipo de Baja Fidelidad - Modal para API Key](src/data/img/WireframeModal.png)
+- ![Prototipo de Baja Fidelidad - Modal para API Key](src/data/img/WireframeModal.jpg)
 
 #### Prototipo de alta fidelidad - Mobile
 - Diseño de la interfaz de usuario realizado utilizando Figma, tanto de la página principal, los modales, y la vista de los chats.
