@@ -32,9 +32,10 @@ En este proyecto, se ha creado una Single Page Application (SPA) centrada en los
 - Crear una suite de pruebas unitarias que permitan testear código asíncrono.
 
 **Tecnologías utilizadas:** JavaScript (ES6), HTML, CSS.
+
 **Herramientas Adicionales:** Jest, utilizado para el desarrollo de pruebas unitarias en JavaScript, garantizando la calidad y robustez del código al verificar su funcionamiento y rendimiento.
 
-Estos lenguajes y herramientas nos han permitido crear una aplicación web completa y funcional, con un diseño atractivo y una experiencia de usuario optimizada.
+Estos lenguajes y herramientas han permitido crear una aplicación web completa y funcional, con un diseño atractivo y una experiencia de usuario optimizada.
 
 ### Entregable final:
 - Single Page Application (SPA) responsive.
@@ -79,25 +80,25 @@ El producto está diseñado para brindar una experiencia intuitiva y eficiente a
   - Criterios de aceptación: Se puede iniciar una conversación interactiva con uno o todos los personaje y obtener respuestas informativas y personalizadas.
 
 ### Diseño de la interfaz de usuario
-La interfaz de Dataverse está diseñada para ofrecer una experiencia intuitiva y atractiva para los usuarios que deseen explorar el mundo de "El Señor de los Anillos". Con un enfoque en la usabilidad y la presentación clara de información, el diseño busca facilitar la navegación y la comprensión de los datos sobre los personajes.
+La interfaz está diseñada para ofrecer una experiencia intuitiva y atractiva para los usuarios que deseen explorar el mundo de "El Señor de los Anillos". 
 
 #### Prototipo de baja fidelidad
 - Iteraciones de bocetos realizados utilizando papel y lápiz, tanto de la interfaz como de los modales para la API Key.
-- ![Prototipo de Baja Fidelidad - Página Principal](data/img/WireframeBaja.png)
-- ![Prototipo de Baja Fidelidad - Modal para API Key](data/img/WireframeModal.png)
+- ![Prototipo de Baja Fidelidad - Página Principal](src/data/img/WireframeBaja.png)
+- ![Prototipo de Baja Fidelidad - Modal para API Key](src/data/img/WireframeModal.jpg)
 
 #### Prototipo de alta fidelidad - Mobile
 - Diseño de la interfaz de usuario realizado utilizando Figma, tanto de la página principal, los modales, y la vista de los chats.
-- ![Prototipo de Alta Fidelidad - Pantalla Principal](data/img/InicioMobile.png)
-- ![Prototipo de Alta Fidelidad - Modal de Información de cada personaje](data/img/InfoMobile.png)
-- ![Prototipo de Alta Fidelidad - Vista de Chat Individual](data/img/ChatIndividualMobile.png)
-- ![Prototipo de Alta Fidelidad - Vista de Chat Grupal](data/img/ChatGrupalMobile.png)
+- ![Prototipo de Alta Fidelidad - Pantalla Principal](src/data/img/InicioMobile.png)
+- ![Prototipo de Alta Fidelidad - Modal de Información de cada personaje](src/data/img/InfoMobile.png)
+- ![Prototipo de Alta Fidelidad - Vista de Chat Individual](src/data/img/ChatIndividualMobile.png)
+- ![Prototipo de Alta Fidelidad - Vista de Chat Grupal](src/data/img/ChatGrupalMobile.png)
 
 #### Prototipo de alta fidelidad - Desktop
 - Diseño de la interfaz de usuario realizado utilizando Figma, tanto de la página principal, los modales, y la vista de los chats.
-- ![Prototipo de Alta Fidelidad - Pantalla Principal](data/img/InicioDesktop.png)
-- ![Prototipo de Alta Fidelidad - Modal de Información de cada personaje](data/img/InfoDesktop.png)
-- ![Prototipo de Alta Fidelidad - Vista de Chat Individual](data/img/ChatIndividualDesktop.png)
+- ![Prototipo de Alta Fidelidad - Pantalla Principal](src/data/img/InicioDesktop.png)
+- ![Prototipo de Alta Fidelidad - Modal de Información de cada personaje](src/data/img/InfoDesktop.png)
+- ![Prototipo de Alta Fidelidad - Vista de Chat Individual](src/data/img/ChatIndividualDesktop.png)
 
 ---
 Con estos prototipos, se logró diseñar una interfaz atractiva y funcional brindando una experiencia de usuario enriquecedora para los fans de "El Señor de los Anillos".
@@ -112,7 +113,7 @@ El diseño de la aplicación se ha desarrollado teniendo en cuenta la importanci
 - **Uso de Media Queries:** Se ha implementado Media Queries para aplicar estilos específicos según el tamaño de la pantalla, optimizando la presentación de la información y la navegación.
 - **Pruebas en Dispositivos Variados:** Durante el desarrollo, se realizaron pruebas exhaustivas en una variedad de dispositivos y resoluciones para verificar la compatibilidad y asegurar una experiencia uniforme.
 
-La responsividad es una parte integral de nuestro enfoque de diseño y desarrollo, brindando a los usuarios la flexibilidad para acceder y utilizar nuestra aplicación de manera cómoda y efectiva en cualquier dispositivo.
+La responsividad es una parte integral del enfoque de diseño y desarrollo, brindando a los usuarios la flexibilidad para acceder y utilizar la aplicación de manera cómoda y efectiva en cualquier dispositivo.
 
 ## Cierre del Proyecto
 Hemos llegado al final de nuestro emocionante viaje por El Chat de Los Anillos, el universo de "El Señor de los Anillos".
