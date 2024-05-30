@@ -1,4 +1,4 @@
-import { navigateTo } from "../router.js";
+import { navigateTo } from "./router.js";
 
 export const renderItems = (data) => {
   const ulElement = document.createElement('ul');
